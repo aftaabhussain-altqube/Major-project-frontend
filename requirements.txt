@@ -1,0 +1,8 @@
+ultralytics==8.3.3
+pandas==2.2.3
+opencv-python==4.10.0.84
+openvino
+openpyxl==3.1.5
+torchvision
+streamlit-aggrid
+streamlit
