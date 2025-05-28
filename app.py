@@ -127,7 +127,7 @@ def run_model_on_image(model_key: str) -> None:
 # 🅰️  REPORT page  (upload → call API → display)
 # ---------------------------------------------------------------------------
 def show_report():
-    st.title("🐄 Gau Swastha — AI Health Report")
+    st.title("🐄 CattleSense — AI Health Report")
 
     API_URL = "https://dev-scanner.silofortune.com/api/v2_5/cattle-scanner"
     img_file = st.file_uploader("Upload *side-profile* image", type=["jpg", "jpeg", "png"])
